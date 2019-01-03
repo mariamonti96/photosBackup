@@ -3,15 +3,20 @@
 
 #include <QWidget>
 
+class QPushButton;
 class Window : public QWidget
 {
     Q_OBJECT
-public:
+    public:
     explicit Window(QWidget *parent = nullptr);
 
-signals:
+    signals:
 
-public slots:
+    public slots:
+
+    private:
+    QPushButton *m_button;
+
 };
 
 #endif // WINDOW_H
