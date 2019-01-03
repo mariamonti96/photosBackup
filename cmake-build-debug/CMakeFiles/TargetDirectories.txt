@@ -1,0 +1,3 @@
+/Users/mariamonti/CLionProjects/photosBackup/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mariamonti/CLionProjects/photosBackup/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mariamonti/CLionProjects/photosBackup/cmake-build-debug/CMakeFiles/photosBackup.dir
