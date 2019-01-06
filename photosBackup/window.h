@@ -6,6 +6,8 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <pwd.h>
+
 
 namespace fs = ::boost::filesystem;
 using namespace std;

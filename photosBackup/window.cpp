@@ -1,8 +1,9 @@
 #include "window.h"
 #include <QPushButton>
 #include <QApplication>
+#include <helpers.h>
 
-
+namespace fs = ::boost::filesystem;
 Window::Window(QWidget *parent) : QWidget(parent)
 {
     //Set the size of the window
@@ -13,7 +14,16 @@ Window::Window(QWidget *parent) : QWidget(parent)
     m_button->setGeometry(10, 10, 180, 50);
     //m_button->setCheckable(true);
 
-    src_dir = "/Users/mariamonti/Desktop";
+
+    fs::path home_dir;
+
+    get_home_path(home_dir);
+
+    src_dir = home_dir/"/";
+
+    cout << src_dir << endl;
+    //Could potentially only search in desktop:
+    //src_dir = home_dir/"Desktop/";
     ext = ".jpg";
     copy_dir = "/Users/mariamonti/Desktop/Images_Copy";
 
@@ -41,6 +51,7 @@ void Window::copy_files(const vector<fs::path> &paths, const fs::path &copy_dir)
 //            if (!err.code().equivalent(boost::system::errc::file_exists))
 //                throw;
         }
+
 
           //Print all the files in the copy directory to check if the copy operation worked
 //
@@ -72,11 +83,15 @@ void Window::find_files(const fs::path& root, const string& ext, vector<fs::path
     fs::recursive_directory_iterator it(root);
     fs::recursive_directory_iterator endit;
 
-    while(it != endit)
-    {
-        if(fs::is_regular_file(*it) && it->path().extension() == ext) paths.push_back(it->path());
-        ++it;
+    try{
+        while(it != endit)
+        {
+            if(fs::is_regular_file(*it) && it->path().extension() == ext) paths.push_back(it->path());
+            ++it;
 
+        }
+    }
+    catch(const boost::filesystem::filesystem_error){
     }
 
     //Print out the content of the paths vector

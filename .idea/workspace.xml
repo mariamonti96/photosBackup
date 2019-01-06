@@ -12,20 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e23f35-7b74-4566-9773-6a89d05104bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/photosBackup/backup.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photosBackup/backup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photosBackup/copy_files.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photosBackup/copy_files.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photosBackup/find_files.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photosBackup/find_files.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photosBackup/helpers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photosBackup/helpers.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/backup.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/backup.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/main.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/photosBackup.app/Contents/MacOS/photosBackup" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/photosBackup.app/Contents/MacOS/photosBackup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/window.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/window.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photosBackup/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/photosBackup/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photosBackup/photosBackup.pro" beforeDir="false" afterPath="$PROJECT_DIR$/photosBackup/photosBackup.pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photosBackup/window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/photosBackup/window.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photosBackup/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/photosBackup/window.h" afterDir="false" />
@@ -148,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="195">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -251,12 +246,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546435139906</updated>
       <workItem from="1546435142117" duration="9285000" />
-      <workItem from="1546527256357" duration="2291000" />
+      <workItem from="1546527256357" duration="2862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11576000" />
+    <option name="totallyTimeSpent" value="12147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -370,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

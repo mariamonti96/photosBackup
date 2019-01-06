@@ -7,10 +7,12 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 SOURCES += \
     main.cpp \
-    window.cpp
+    window.cpp \
+    helpers.cpp
 
 HEADERS += \
-    window.h
+    window.h \
+    helpers.h
 
 
 
