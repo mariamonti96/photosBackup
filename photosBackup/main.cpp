@@ -2,7 +2,7 @@
 #include <QPushButton>
 #include "window.h"
 #include <boost/filesystem.hpp>
-#include "backup.h"
+
 
 namespace fs = ::boost::filesystem;
 using namespace std;
@@ -11,15 +11,10 @@ int main(int argc, char **argv)
 {
  QApplication app (argc, argv);
 
- fs::path src_dir = "/Users/mariamonti";
- fs::path copy_dir = "/Users/mariamonti/Desktop/Images_Copy";
- string ext = ".jpg";
- vector<fs::path> paths;
 
- Backup* backup = new Backup(src_dir, copy_dir, ext, paths);
- Window window;
 
- QObject::connect(window.m_button, &QPushButton::clicked, backup, &Backup::slotBackup);
+ Window* window = new Window();
+
 
 
  //window.setFixedSize(200, 70);
@@ -45,7 +40,8 @@ int main(int argc, char **argv)
  //Show the button
  //button->show();
 
- window.show();
+ window->show();
+
 
  return app.exec();
 }

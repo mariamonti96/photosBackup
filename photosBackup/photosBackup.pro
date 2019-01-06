@@ -7,16 +7,12 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 SOURCES += \
     main.cpp \
-    window.cpp \
-    backup.cpp \
-    find_files.cpp \
-    copy_files.cpp
+    window.cpp
 
 HEADERS += \
-    window.h \
-    backup.h \
-    find_files.h \
-    copy_files.h
+    window.h
+
+
 
 macx{
     QMAKE_CFLAGS += -std=c++11
