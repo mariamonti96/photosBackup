@@ -42,7 +42,7 @@
 #define __DECIMAL_DIG__ __LDBL_DECIMAL_DIG__
 #define __DEPRECATED 1
 #define __DYNAMIC__ 1
-#define __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__ 101200
+#define __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__ 1090
 #define __EXCEPTIONS 1
 #define __FINITE_MATH_ONLY__ 0
 #define __FLT16_DECIMAL_DIG__ 5
@@ -187,7 +187,6 @@
 #define __LP64__ 1
 #define __MACH__ 1
 #define __MMX__ 1
-#define __NO_INLINE__ 1
 #define __NO_MATH_INLINES 1
 #define __OBJC_BOOL_IS_BOOL 0
 #define __OPENCL_MEMORY_SCOPE_ALL_SVM_DEVICES 3
@@ -195,6 +194,7 @@
 #define __OPENCL_MEMORY_SCOPE_SUB_GROUP 4
 #define __OPENCL_MEMORY_SCOPE_WORK_GROUP 1
 #define __OPENCL_MEMORY_SCOPE_WORK_ITEM 0
+#define __OPTIMIZE__ 1
 #define __ORDER_BIG_ENDIAN__ 4321
 #define __ORDER_LITTLE_ENDIAN__ 1234
 #define __ORDER_PDP_ENDIAN__ 3412
@@ -234,7 +234,6 @@
 #define __SSE2_MATH__ 1
 #define __SSE2__ 1
 #define __SSE3__ 1
-#define __SSE4_1__ 1
 #define __SSE_MATH__ 1
 #define __SSE__ 1
 #define __SSP__ 1

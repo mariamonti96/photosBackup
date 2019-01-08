@@ -12,18 +12,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e23f35-7b74-4566-9773-6a89d05104bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/photosBackup/helpers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photosBackup/helpers.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/backup.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/backup.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/window.o" beforeDir="false" afterPath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/window.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/.qmake.stash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/backup.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/copy_files.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/find_files.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/helpers.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_backup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_backup.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_predefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/moc_window.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/photosBackup.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/photosBackup.app/Contents/MacOS/photosBackup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/photosBackup.app/Contents/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/photosBackup.app/Contents/Resources/empty.lproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-photosBackup-Desktop_Qt_5_12_0_clang_64bit-Debug/window.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/photosBackup/photosBackup.pro" beforeDir="false" afterPath="$PROJECT_DIR$/photosBackup/photosBackup.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photosBackup/window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/photosBackup/window.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photosBackup/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/photosBackup/window.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -246,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546435139906</updated>
       <workItem from="1546435142117" duration="9285000" />
-      <workItem from="1546527256357" duration="2862000" />
+      <workItem from="1546527256357" duration="3214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12147000" />
+    <option name="totallyTimeSpent" value="12499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
