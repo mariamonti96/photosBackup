@@ -19,13 +19,13 @@ HEADERS += \
 macx{
     QMAKE_CFLAGS += -std=c++11
 
-    _BOOST_PATH = /usr/local/Cellar/boost/1.68.0
+    _BOOST_PATH = /usr/local/Cellar/boost
     INCLUDEPATH += "$${_BOOST_PATH}/include/"
     #LIBS += -L$${_BOOST_PATH}/lib
 
     ## Use only one of these:
     #LIBS += -lboost_filesystem -lboost_system # using dynamic lib
-    LIBS += $${_BOOST_PATH}/lib/libboost_filesystem-mt.a # using static lib
+    LIBS += $${_BOOST_PATH}/lib/libboost_filesystem.a $${_BOOST_PATH}/lib/libboost_system.a # using static lib
 
     CONFIG += static
 }
